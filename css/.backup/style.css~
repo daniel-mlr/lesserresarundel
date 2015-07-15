@@ -1,0 +1,155 @@
+h1 { font-size: 28px; } 
+h2 { font-size: 22px; } 
+h3 { font-size: 16px; }
+@media (min-width: 1200px) {
+  .container {
+      max-width: 780px;
+      /*width: 795px + @grid-gutter-width);*/
+      /* pour visualiser container */
+      /*border: 2px solid red;*/
+  }
+}
+@media (min-width: 768px) {
+    .container{max-width: 780px;}
+}
+.col-md-12, .col-md-6, .col-md-3, .col-md-2 {
+    /* tests */
+    /*border: 2px solid green;*/
+}
+
+#site_slogan {
+    font: italic bold 25px/30px Georgia, serif;
+    color: #eb926a;
+	color:#d77e00;
+    margin: 0px;
+    position: absolute;
+    top: 125px;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+#bg-logo {
+    float: right;
+}
+#logo-blanc {
+    position: relative;
+    top: -15px;
+}
+
+#heading {
+    margin-right: 0px;
+    padding: 0px;
+}
+#branding {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#test {
+    border:2px solid blue;
+}
+.navbar-default {
+    background-color: #32c88f;
+    border-radius: 8px;
+    border: 2px solid #005e3b;
+}
+.navbar-default .navbar-brand {
+    color: #eefff9;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #e9fef6;
+}
+
+.navbar-default .navbar-text {
+  color: #eefff9;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #eefff9;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #e9fef6;
+    /*font-weight: bold;*/
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #e9fef6;
+  background-color: #00975e;
+}
+
+
+
+.navbar {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    /*border: 2px solid #00975e;*/
+}
+.navbar-brand {
+    width: 150px;
+}
+.panel {
+    border: 2px solid #005e3b;
+    border-radius: 8px;
+    margin: 0px 0 10px 0;
+}
+.panel-heading {
+    background-color: #32c88f;
+    border-radius: 6px 8px 0 0;
+    padding: 3px;
+}
+.panel-body {
+    padding: 10px;
+}
+
+div.panel-heading h2 {
+    color: #005e3b;
+    margin-top: 7px;
+    margin-left: 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.row {
+    /*
+    margin-left: 0;
+    margin-right: 0;
+    */
+}
+.nopadding {
+    padding: 0px;
+}
+#main-header {
+    /*border: 2px solid red;*/
+}
+#passionnes {
+    margin: 10px 0;
+}
+.dm-panel-content-center {
+    text-align: center;
+}
+
+#mission cite {
+    color: #eb926a;
+	color:#d77e00;
+	font-style:italic;
+    font-weight: bold;
+}
+#mission p{
+	margin:7px 0 0 0;
+}
+#bienvenue {
+    margin: 20px 0;
+}
+#bienvenue h2 {
+    display: inline;
+    font-size: 130%; 
+    font-weight: bold;
+}
+address {
+    margin-bottom: 5px;
+}
+#email {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
